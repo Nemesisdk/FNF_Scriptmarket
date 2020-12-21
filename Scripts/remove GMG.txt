@@ -1,0 +1,8 @@
+if (isServer) then { 
+  this removeWeaponTurret ["RHS_MK19", [0]]; 
+  this removeMagazinesTurret ["RHS_96Rnd_40mm_MK19_M1001",[0]]; 
+  this removeMagazinesTurret ["RHS_96Rnd_40mm_MK19_M430A1",[0]]; 
+ 
+  this addWeaponTurret ["rhs_weap_m240_m113", [0]]; 
+  this addMagazineTurret ["rhs_mag_762x51_M240_200",[0],200];
+}
